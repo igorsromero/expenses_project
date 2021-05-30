@@ -1,7 +1,6 @@
 import 'package:expenses_project/models/transaction.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 
 main() => {Intl.defaultLocale = 'pt_Br', runApp(ExpensesApp())};
 

@@ -1,7 +1,9 @@
 import 'package:expenses_project/models/transaction.dart';
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 
-main() => runApp(ExpensesApp());
+main() => {Intl.defaultLocale = 'pt_Br', runApp(ExpensesApp())};
 
 class ExpensesApp extends StatelessWidget {
   @override
@@ -79,7 +81,7 @@ class MyHomePage extends StatelessWidget {
                           ),
                         ),
                         Text(
-                          tr.date.toString(),
+                          DateFormat.yMMMEd().format(tr.date),
                           style: TextStyle(
                             color: Colors.grey[600],
                           ),

@@ -1,16 +1,40 @@
 # expenses_project
 
-A new Flutter project.
+Projeto de gerenciamento de despesas em Flutter.
 
-## Getting Started
+## Documentação
+Para acessar a documentação do Flutter, acesse o site: https://flutter.dev/docs
 
-This project is a starting point for a Flutter application.
+<details>
+<summary>Conteúdo aprendido</summary>
 
-A few resources to get you started if this is your first Flutter project:
+- O que é StatelessWidget: É o que define Widgets que não alteram suas características com a mudança de estado do aplicativo. Ele mantém as mesmas características desde o início da execução do aplicativo.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- O que é StatefulWidget: É o que define Widgets que mudam suas características com a mudança de estado do aplicativo. Durante a execução do aplicativo, se o estado mudar, isso é refletido no Widget.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- O que é MaterialApp: O MaterialApp é um widget de conveniência que envolve vários widgets que normalmente são necessários para aplicativos de 
+material design. Ele fornece um layout orientado ao material design, para usá-lo, precisamos criar uma nova instância dentro do método runApp.
+
+- O que é MaterialDesign: É um conjunto de diretrizes, também conhecido como guidelines, que foi criado pela Google para padronizar todas as suas interfaces gráficas.
+
+- O que é Scaffold: Para estruturar o layout de uma tela, este é o widget ideal. Neste podemos adicionar barras de navegação (superior e inferior), e na propriedade body, definimos o principal widget da nossa tela.
+
+</details>
+
+&nbsp;
+
+<details>
+<summary>Links Úteis</summary>
+
+[Flutter Widgets: StatelessWidget e StatefulWidget]
+
+[MaterialApp class]
+
+[Scaffold class]
+</details>
+
+[Flutter Widgets: StatelessWidget e StatefulWidget]: https://www.devmedia.com.br/flutter-widgets-statelesswidget-e-statefulwidget/40704
+
+[MaterialApp class]: https://api.flutter.dev/flutter/material/MaterialApp-class.html
+
+[Scaffold class]: https://api.flutter.dev/flutter/material/Scaffold-class.html
